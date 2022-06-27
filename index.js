@@ -9,4 +9,12 @@ for (let i = 0; i < weeklyExpenseQuestions.length; i++) {
     weeklyExpenses += answer
 }
 
-console.log(weeklyExpenseQuestions)
+for (i = 0; i < monthlyExpenseQuestions.length; i++) {
+    let answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
+    monthlyExpenses += answer
+}
+
+for (i = 0; i < annualExpenseQuestions.length; i++) {
+    let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
+    annualExpenses += answer
+}
